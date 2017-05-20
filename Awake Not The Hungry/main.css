@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to top, #1c92d2, #f2fcfe);
+    background-attachment: fixed;
+}
+
+nav a {
+    font-size: 1.3em;
+}
+nav  {
+    border-bottom: 1px solid black;
+}
+
+
+.jumbotron h1 {
+    font-size: 3em;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+.footerText {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
