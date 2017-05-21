@@ -1,20 +1,61 @@
 body {
-    background: linear-gradient(to top, #1c92d2, #f2fcfe);
+    background: linear-gradient(to top, #FFD5B2, #f2fcfe);
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav a {
+    font-family: 'Passion One', cursive;
     font-size: 1.3em;
 }
 nav  {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
+    min-height: 55px;
+
+}
+
+nav a:hover {
+    color: black;
 }
 
 
+.jumbotron{
+    background: linear-gradient(to top, #ffffff, #fafe56);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    box-shadow: 0px 4px 5px #888888
+    
+}
+
 .jumbotron h1 {
-    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3.5em;
     font-weight: 200;
     padding-top: 20px;
+}
+
+img {
+    box-shadow: 8px 6px 5px grey;
+}
+
+#mainContent h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 3rem;
+    text-shadow: 4px 4px 5px #bebebe;
+
+}
+#mainContent p {
+    font-family: 'Muli', sans-serif;
+
+}
+
+.btn-outline-primary {
+    margin: 30px;
 }
 
 footer {
